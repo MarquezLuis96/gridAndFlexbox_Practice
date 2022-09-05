@@ -1,0 +1,110 @@
+:root {
+    /*COLORS*/
+    --primary-color: #264653;
+    --secondary-color: #E9C46A;
+    --third-color: #2A9D8F;
+    --prim-text-color: #000000;
+    --sec-text-color: #FFFFFF;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--sec-text-color);
+    padding: 1em;
+}
+
+header:hover {
+    background-color: var(--secondary-color);
+    color: var(--prim-text-color);
+}
+
+header h2 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--secondary-color);
+    color: var(--prim-text-color);
+    padding: 5em;
+}
+
+main section {
+    background-color: var(--sec-text-color);
+    padding: 1em;
+}
+
+.main--div__container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: 2.5em;
+}
+
+.main--div__container .element1 {
+    border-radius: 50%;
+    position: relative;
+    background-color: yellow;
+    padding: 2em;
+    top: 10px;
+    left: 50px;
+    z-index: 3;
+}
+
+.main--div__container .element2 {
+    border-radius: 50%;
+    position: relative;
+    background-color: magenta;
+    padding: 2em;
+    bottom: 20px;
+    z-index: 2;
+}
+
+
+.main--div__container .element3 {
+    border-radius: 50%;
+    position: relative;
+    background-color: cyan;
+    padding: 2em;
+    top: 10px;
+    right: 50px;
+    z-index: 4;
+}
+
+footer {
+    background-color: var(--third-color);
+    color: var(--sec-text-color);
+    padding: 1em;
+}
+
+footer:hover {
+    background-color: var(--secondary-color);
+    color: var(--prim-text-color);
+}
+
+footer h2 {
+    text-align: center;
+}
