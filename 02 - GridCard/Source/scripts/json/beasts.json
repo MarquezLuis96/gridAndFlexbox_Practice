@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Thunderbird",
+        "img": "../../images/beasts/Tunderbird.jpg",
+        "desc": "Cuando se siente en peligro vuela muy alto y es capaz crear tormentas eléctricas."
+    },
+    {
+        "name": "Occamy",
+        "img": "../../images/beasts/occamy.jpg",
+        "desc": "Puede volar y cambiar de tamaño. Es muy agresivo, en especial si percibe que son una amenaza para sus huevos."
+    },
+    {
+        "name": "Escarbato",
+        "img": "../../images/beasts/Niffler.jpg",
+        "desc": "Amigable, de un sedoso pelaje negro y un hocico largo. Si te descuidas te puede dejar tus bolsillos vacíos."
+    }
+]
